@@ -1,0 +1,15 @@
+.advice-generation-btn {
+  width: 60px;
+  height: 60px;
+  background-color: var(--neon-green);
+  border: none;
+  border-radius: 50%;
+  line-height: 0;
+  transition: box-shadow 0.08s linear;
+  cursor: pointer;
+}
+
+.advice-generation-btn:hover {
+  box-shadow: 0 0 40px -2px var(--neon-green),
+    0 0 40px -2px var(--neon-green) inset;
+}
